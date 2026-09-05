@@ -1,0 +1,37 @@
+[info]
+title=Linter for Markdown, using rumdl
+desc=Lints Markdown texts using rumdl
+type=cudatext-plugin
+subdir=cuda_lint_rumdl
+homepage=https://github.com/CudaText-addons/cuda_lint_rumdl
+author=ashed
+
+[item1]
+section=commands
+caption=rumdl\Config
+method=config
+menu=o
+
+[item2]
+section=commands
+caption=rumdl\Fix current file
+method=fix_file
+lexers=Markdown
+
+[item3]
+section=commands
+caption=rumdl\Fix current file (unsafe)
+method=fix_file_unsafe
+lexers=Markdown
+
+[item4]
+section=commands
+caption=rumdl\Format current file
+method=format_file
+lexers=Markdown
+
+[item5]
+section=commands
+caption=rumdl\Help
+method=help
+menu=o
