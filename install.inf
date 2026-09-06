@@ -3,7 +3,7 @@ title=Linter for Markdown, using rumdl
 desc=Lints Markdown texts using rumdl
 type=cudatext-plugin
 subdir=cuda_lint_rumdl
-homepage=https://github.com/CudaText-addons/cuda_lint_rumdl
+homepage=https://github.com/ashed/cuda_lint_rumdl
 author=ashed
 
 [item1]
